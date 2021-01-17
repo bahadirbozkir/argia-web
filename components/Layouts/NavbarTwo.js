@@ -104,30 +104,14 @@ class Navbar extends Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/#">
-                                                <a className="nav-link">
-                                                    İçerikler <i className="fas fa-chevron-down"></i>
-                                                </a>
+                                            <Link href="/shop" activeClassName="active">
+                                                <a className="nav-link">Ürünler</a>
                                             </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/shop" activeClassName="active">
-                                                        <a className="nav-link">Ürünler</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/single-products" activeClassName="active">
-                                                        <a className="nav-link">Single Products</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
                                         </li>
 
                                         <li className="nav-item">
                                             <Link href="/contact" activeClassName="active">
-                                                <a className="nav-link">Contact</a>
+                                                <a className="nav-link">İletişim</a>
                                             </Link>
                                         </li>
                                     </ul>

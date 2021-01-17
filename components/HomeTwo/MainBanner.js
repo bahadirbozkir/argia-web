@@ -6,7 +6,7 @@ const MainBanner = () => {
     return (
         <div className="banner-section">
             <div className="container">
-                <div className="row">
+                <div className="row" >
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <h1>World’s Leading AI & Machine Learning Company</h1>
@@ -20,44 +20,6 @@ const MainBanner = () => {
                                     <a className="optional-btn">Get Started Free</a>
                                 </Link>
                             </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-6">
-                        <div className="banner-image">
-                            <img src="/images/banner-2/banner-2-shape1.png" alt="image" />
-
-                            <ReactWOW delay='.1s' animation='fadeIn'>
-                                <img src="/images/banner-2/banner-2-shape2.png" alt="image" />
-                            </ReactWOW>
-
-                            <ReactWOW delay='.1s' animation='fadeInUp'>
-                                <img src="/images/banner-2/banner-2-shape3.png" alt="image" />
-                            </ReactWOW>
-
-                            <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                <img src="/images/banner-2/banner-2-shape4.png" alt="image" />
-                            </ReactWOW>
-                            
-                            <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                <img src="/images/banner-2/banner-2-shape5.png" alt="image" />
-                            </ReactWOW>
-
-                            <ReactWOW delay='.1s' animation='fadeInUp'>
-                                <img src="/images/banner-2/banner-2-shape6.png" alt="image" />
-                            </ReactWOW>
-                            
-                            <ReactWOW delay='.1s' animation='fadeIn'>
-                                <img src="/images/banner-2/banner-2-shape7.png" alt="image" />
-                            </ReactWOW>
-
-                            <ReactWOW delay='.1s' animation='fadeInDown'> 
-                                <img src="/images/banner-2/banner-2-shape8.png" alt="image" />
-                            </ReactWOW>
-
-                            <ReactWOW delay='.1s' animation='fadeInUp'>
-                                <img src="/images/banner-image.png" className="main-pic" alt="image" />
-                            </ReactWOW>
                         </div>
                     </div>
                 </div>

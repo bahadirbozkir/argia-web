@@ -6,17 +6,18 @@ import RelatedProducts from '../components/SingleProducts/RelatedProducts';
 import ProductsDetailsTab from '../components/SingleProducts/ProductsDetailsTab';
 
 class SingleProducts extends Component {
+
     render() {
         return (
             <React.Fragment>
                 <NavbarTwo />
-                <PageBanner 
-                    pageTitle="Single Products" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Single Products" 
-                    bgImgClass="item-bg1" 
-                />  
+                <PageBanner
+                    pageTitle="Single Products"
+                    homePageUrl="/"
+                    homePageText="Home"
+                    activePageText="Single Products"
+                    bgImgClass="item-bg1"
+                />
 
                 <section className="product-details-area ptb-110">
                     <div className="container">
@@ -101,7 +102,7 @@ class SingleProducts extends Component {
 
                     <RelatedProducts />
                 </section>
- 
+
                 <Footer />
             </React.Fragment>
         );
