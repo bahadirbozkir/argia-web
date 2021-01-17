@@ -73,7 +73,7 @@ class Footer extends Component {
 
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="single-footer-widget">
-                                <h3>Contacts</h3>
+                                <h3>İletişim</h3>
 
                                 <ul className="footer-contact-list">
                                     <li>
@@ -85,7 +85,7 @@ class Footer extends Component {
                                         info@argiapool.com
                                     </li>
                                     <li>
-                                        <span>Phone:</span>  <br />
+                                        <span>Telefon:</span>  <br />
                                         0 212 222 53 40 <br /> 0 533 491 46 51 <br /> 0 506 021 53 28
 
                                     </li>
@@ -99,7 +99,7 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-6">
-                                <p>Copyright &copy;{currentYear} Argia. All Rights Reserved <a href="https://envytheme.com/" target="_blank"> EnvyTheme</a>.</p>
+                                <p>Copyright &copy;{currentYear} Argia. All Rights Reserved </p>
                             </div>
                         </div>
                     </div>

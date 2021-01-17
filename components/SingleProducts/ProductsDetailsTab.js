@@ -29,19 +29,13 @@ export default class ProductsDetailsTab extends Component {
                                 className="current"
                                 onClick={(e) => this.openTabSection(e, 'tab1')}
                             >
-                                <div className="dot"></div> Description
+                                <div className="dot"></div> Açıklama
                             </li>
                             
                             <li
                                 onClick={(e) => this.openTabSection(e, 'tab2')}
                             >
-                                <div className="dot"></div> Additional information
-                            </li>
-
-                            <li
-                                onClick={(e) => this.openTabSection(e, 'tab3')}
-                            >
-                                <div className="dot"></div> Reviews
+                                <div className="dot"></div> Diğer
                             </li>
                         </ul>
                     </div>
@@ -57,11 +51,11 @@ export default class ProductsDetailsTab extends Component {
                             <div id="tab2" className="tabs_item">
                                 <div className="products-details-tab-content">
                                     <ul className="additional-information">
-                                        <li><span>Brand:</span> ThemeForest</li>
-                                        <li><span>Color:</span> Brown</li>
-                                        <li><span>Size:</span> Large, Medium</li>
-                                        <li><span>Weight:</span> 27 kg</li>
-                                        <li><span>Dimensions:</span> 16 x 22 x 123 cm</li>
+                                        <li><span>Marka:</span> Demo</li>
+                                        <li><span>Renk:</span> White</li>
+                                        <li><span>Boyut:</span> Büyük</li>
+                                        <li><span>Ağırlık:</span> 5 kg</li>
+                                        <li><span>Ölçü:</span> 16 x 22 x 123 cm</li>
                                     </ul>
                                 </div>
                             </div>

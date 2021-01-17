@@ -9,10 +9,10 @@ class Shop extends Component {
             <React.Fragment>
                 <NavbarTwo />
                 <PageBanner 
-                    pageTitle="Shop" 
+                    pageTitle="Ürünler" 
                     homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Shop" 
+                    homePageText="Ana Sayfa" 
+                    activePageText="Ürünler" 
                     bgImgClass="item-bg2" 
                 />  
 
@@ -23,8 +23,8 @@ class Shop extends Component {
                                 <div className="single-product-box">
                                     <div className="product-image">
                                         <a href="/product/1">
-                                            <img src="/images/shop/product1.jpg" alt="image" />
-                                            <img src="/images/shop/product-hover1.jpg" alt="image" />
+                                            <img src="/images/shop/havuz-lambasi.jpg" alt="image" />
+                                            <img src="/images/shop/havuz-lambasi.jpg" alt="image" />
                                         </a>   
 
                                         <a href="/product/1" className="add-to-cart-btn">Ürün Detayı <i className="fas fa-cart-plus"></i></a>                                     
@@ -34,7 +34,7 @@ class Shop extends Component {
                                         <h3><a href="/product/1">72 LED 2835</a></h3>
                                         <h5><a href="/product/1">0,5W AC&DC / 10,7 - 24V / 15W</a></h5>
                                         <div className="price">
-                                            <span className="new">$8.50</span>
+                                            <span className="new">8.50₺</span>
                                         </div>
                                     </div>
                                 </div>
@@ -44,8 +44,8 @@ class Shop extends Component {
                                 <div className="single-product-box">
                                     <div className="product-image">
                                         <a href="/product/1">
-                                            <img src="/images/shop/product2.jpg" alt="image" />
-                                            <img src="/images/shop/product-hover2.jpg" alt="image" />
+                                            <img src="/images/shop/havuz-lambasi.jpg" alt="image" />
+                                            <img src="/images/shop/havuz-lambasi.jpg" alt="image" />
                                         </a>
 
                                         <a href="/product/1" className="add-to-cart-btn">Ürün Detayı <i className="fas fa-cart-plus"></i></a>
@@ -57,8 +57,8 @@ class Shop extends Component {
                                         <h3><a href="/product/1">96 LED</a></h3>
                                         <h5><a href="/product/1">2835-0,5W AC&DC / 10,7 - 17V / 25W</a></h5>
                                         <div className="price">
-                                            <span className="new">$12.50</span>
-                                            <span className="old">$20.50</span>
+                                            <span className="new">12.50₺</span>
+                                            <span className="old">20.50₺</span>
                                         </div>
                                     </div>
                                 </div>
@@ -68,8 +68,8 @@ class Shop extends Component {
                                 <div className="single-product-box">
                                     <div className="product-image">
                                         <a href="/product/1">
-                                            <img src="/images/shop/product3.jpg" alt="image" />
-                                            <img src="/images/shop/product-hover3.jpg" alt="image" />
+                                            <img src="/images/shop/havuz-lambasi.jpg" alt="image" />
+                                            <img src="/images/shop/havuz-lambasi.jpg" alt="image" />
                                         </a>
 
                                         <a href="/product/1" className="add-to-cart-btn">Ürün Detayı <i className="fas fa-cart-plus"></i></a>
@@ -79,8 +79,8 @@ class Shop extends Component {
                                         <h3><a href="/product/1">45 LED</a></h3>
                                         <h5><a href="/product/1">3030-1,5W AC&DC / 10,7 - 17V / 35W</a></h5>
                                         <div className="price">
-                                            <span className="new">$8.50</span>
-                                            <span className="old">$12.50</span>
+                                            <span className="new">8.50₺</span>
+                                            <span className="old">12.50₺</span>
                                         </div>
                                     </div>
                                 </div>

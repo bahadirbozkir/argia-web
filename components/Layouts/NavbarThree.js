@@ -110,7 +110,7 @@ class NavbarThree extends Component {
 
                                         <li className="nav-item">
                                             <Link href="/contact" activeClassName="active">
-                                                <a className="nav-link">İletişim</a>
+                                                <a className="nav-link">Bize Ulaşın</a>
                                             </Link>
                                         </li>
                                     </ul>
