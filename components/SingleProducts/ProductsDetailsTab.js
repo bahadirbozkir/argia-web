@@ -35,7 +35,7 @@ export default class ProductsDetailsTab extends Component {
                             <li
                                 onClick={(e) => this.openTabSection(e, 'tab2')}
                             >
-                                <div className="dot"></div> Diğer
+                                <div className="dot"></div> Ürün Özellikleri
                             </li>
                         </ul>
                     </div>

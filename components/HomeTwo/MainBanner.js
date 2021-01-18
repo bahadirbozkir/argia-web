@@ -15,7 +15,7 @@ const MainBanner = () => {
 
                             <div className="btn-box">
                                 <Link href="/shop">
-                                    <a className="btn btn-primary">Ürünler</a>
+                                    <a className="btn btn-info">Ürünler</a>
                                 </Link>
                                 <Link href="/contact">
                                     <a className="optional-btn">Bize Ulaşın</a>

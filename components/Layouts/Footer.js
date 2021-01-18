@@ -14,7 +14,7 @@ class Footer extends Component {
                             <div className="single-footer-widget">
                                 <div className="logo">
                                     <a href="/">
-                                        <img src="/images/white-logo.png" alt="image" />
+                                        <img src="/images/argia-logo-transparent.png" alt="image"  width="149" height="37"/>
                                     </a>
                                     <p>ÖZÇAĞ YAYINCILIK VE HAVUZ ÜRÜNLERİ SAN. TİC.LTD. ŞTİ. olarak sektöre 2004 yılında havuz malzeme satışı ve taahhüt işleri ile başlayan şirketimiz aynı zamanda 2020 yılına kadar sektörün tek yayını HAVUZ & SAUNA DERGİSİ’ ninde sahibidir. 2015 yılında ARGİA markası ile Türkiye’nin en kaliteli yerli su altı lambası üretimine büyük bir titizlik ile başlamıştır.</p>
                                 </div>

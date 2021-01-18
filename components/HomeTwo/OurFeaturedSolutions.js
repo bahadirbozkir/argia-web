@@ -12,7 +12,7 @@ const OurFeaturedSolutions = () => {
 
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-featured-solutions-box">
+                        <div className="single-featured-solutions-box"  style={{height : "450px"}}>
                             <div className="icon">
                                 <img src="/images/icon1.png" alt="image" />
                             </div>
@@ -33,7 +33,7 @@ const OurFeaturedSolutions = () => {
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-featured-solutions-box">
+                        <div className="single-featured-solutions-box" style={{height : "450px"}}>
                             <div className="icon">
                                 <img src="/images/icon2.png" alt="image" />
                             </div>
@@ -52,7 +52,7 @@ const OurFeaturedSolutions = () => {
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
-                        <div className="single-featured-solutions-box">
+                        <div className="single-featured-solutions-box"  style={{height : "450px"}}>
                             <div className="icon">
                                 <img src="/images/icon3.png" alt="image" />
                             </div>
