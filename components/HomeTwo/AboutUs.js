@@ -14,19 +14,19 @@ const AboutUs = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="about-content">
-                            <h2>Engaging New Audiences through Smart Approach</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+                            <h2>Yeni Ürün ARGIA COOLING</h2>
+                            <p>Argia COOLING serisi sualtı aydınlatma ampülü</p>
 
                             <ul className="features-list">
-                                <li><span><i className="flaticon-tick"></i> Classification</span></li>
-                                <li><span><i className="flaticon-tick"></i> Examples</span></li>
-                                <li><span><i className="flaticon-tick"></i> Extensions</span></li>
-                                <li><span><i className="flaticon-tick"></i> Extraction</span></li>
-                                <li><span><i className="flaticon-tick"></i> Selection</span></li>
+                                <li><span><i className="flaticon-tick"></i> Uzun ömürlü aydınlatma</span></li>
+                                <li><span><i className="flaticon-tick"></i> Isı transferli fiziki yapı</span></li>
+                                <li><span><i className="flaticon-tick"></i> Paslanmaz ve plastik her kasaya uyumlu</span></li>
+                                {/* <li><span><i className="flaticon-tick"></i> Extraction</span></li>
+                                <li><span><i className="flaticon-tick"></i> Selection</span></li> */}
                             </ul>
 
-                            <Link href="/about-two">
-                                <a className="btn btn-primary">Discover More</a>
+                            <Link href="/shop">
+                                <a className="btn btn-primary">Daha Fazla Keşfet</a>
                             </Link>
                         </div>
                     </div>

@@ -6,8 +6,8 @@ const OurFeaturedSolutions = () => {
         <div className="featured-solutions-area ptb-110">
             <div className="container">
                 <div className="section-title">
-                    <h2>Our Featured Solutions</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2>Çözümlerimiz</h2>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
                 </div>
 
                 <div className="row">
@@ -18,13 +18,17 @@ const OurFeaturedSolutions = () => {
                             </div>
                             <h3>
                                 <Link href="/index-2/#">
-                                    <a>Robotic Automation</a>
+                                    <a>LED sürücü kullanmak neden önemlidir?</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam.</p>
-                            <Link href="/index-2/#">
+                            <p>Öncelikle enerji tasarrufu sağlıyor olması önemli bir sebeptir. Güç dayanıklılığı ve ömrüyle
+                            eşleşmeyen sistemde risk ve tehlike oluşabilir. Ancak uzun ömürlü ve kaliteli elektrolitik
+                            kapasitörler kullanarak tehlikeyi önlemek mümkün. Uzun ömürlü sürücüler led aydınlatma
+                            sisteminin de dayanıklı olmasını sağlayacaktır. ARGIA marka tüm aydınlatma ürünlerinde
+                            Step-down High Brightness LED Driver kullanılmaktadır.</p>
+                            {/* <Link href="/index-2/#">
                                 <a className="learn-more-btn">Read More</a>
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
 
@@ -35,13 +39,15 @@ const OurFeaturedSolutions = () => {
                             </div>
                             <h3>
                                 <Link href="/index-2/#">
-                                    <a>Machine Learning</a>
+                                    <a>LED’lerde Fosfor Kullanılmasının Avantajları</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam.</p>
-                            <Link href="/index-2/#">
+                            <p>Yüksek CRI elde edilmesini sağlar. Böylece insan gözü nesneleri asıl renklerine en yakın
+                            şekilde algılar. Ayrıca fosfor miktarı ile beyaz LED’in renk sıcaklığı belirlenir. ARGIA
+                            aydınlatma ürünlerinde 80 CRI değerinin altında LED çipi kullanılmamaktadır.</p>
+                            {/* <Link href="/index-2/#">
                                 <a className="learn-more-btn">Read More</a>
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
 
@@ -52,13 +58,20 @@ const OurFeaturedSolutions = () => {
                             </div>
                             <h3>
                                 <Link href="/index-2/#">
-                                    <a>Cognitive Engagement</a>
+                                    <a>ARGIA – UNIQUE</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam.</p>
-                            <Link href="/index-2/#">
+                            <p>Klasik LED’li aydınlatma ürünleri ortalama 120o
+                            açı ile ışık yayar.
+                            Yüzme havuzlarında lambalar havuzun bitiş kotuna 65 cm
+                            mesafede montaj edildiğinden ışık dağılımının %40’ı havuz
+                            dışını aydınlatır. Argia - Unique model ürünümüz özel
+                            tasarım LED kartı ve kullanılan lens özelliği ile tamamen
+                            havuzu aydınlatmaya yönelik tasarlanmıştır. Bu ürün ile daha
+estetik aydınlatma ve %40 enerji tasarrufu sağlarsınız.</p>
+                            {/* <Link href="/index-2/#">
                                 <a className="learn-more-btn">Read More</a>
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>

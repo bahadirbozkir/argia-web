@@ -54,7 +54,7 @@ class NavbarThree extends Component {
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <Link href="/">
                                     <a className="navbar-brand">
-                                        <img src="/images/black-logo.png" className="optional-logo" alt="logo" />
+                                        <img src="/images/argia-logo-transparent.png" className="optional-logo" alt="logo" width="149" height="37"/>
                                     </a>
                                 </Link>
 
@@ -79,32 +79,19 @@ class NavbarThree extends Component {
                                                 <a className="nav-link">Ana Sayfa</a>
                                             </Link>
                                         </li>
-
-                                        <li className="nav-item">
-                                            <Link href="/#">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    Daha Fazla <i className="fas fa-chevron-down"></i>
-                                                </a>
-                                            </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/about" activeClassName="active">
-                                                        <a className="nav-link">Hakkımızda</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/faq" activeClassName="active">
-                                                        <a className="nav-link">S.S.S</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-
                                         <li className="nav-item">
                                             <Link href="/shop" activeClassName="active">
                                                 <a className="nav-link">Ürünler</a>
+                                            </Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link href="/about" activeClassName="active">
+                                                <a className="nav-link">Hakkımızda</a>
+                                            </Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link href="/faq" activeClassName="active">
+                                                <a className="nav-link">S.S.S</a>
                                             </Link>
                                         </li>
 

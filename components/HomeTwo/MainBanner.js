@@ -9,15 +9,16 @@ const MainBanner = () => {
                 <div className="row" >
                     <div className="col-lg-6">
                         <div className="banner-content">
-                            <h1>World’s Leading AI & Machine Learning Company</h1>
-                            <p>ML today are able to supply needful of help, information, and positive experience of maintaining intimacy with customers. Eventually, chatbot ideas bring a pleasant experience of all these qualities into the conversation.</p>
+                            <h1>Siz Hayal Edebilirseniz,</h1>
+                            <h1>Biz Yapabiliriz!</h1>
+                            <h2>Sualtı Aydınlatma Lambaları</h2>
 
                             <div className="btn-box">
-                                <Link href="/index/#">
-                                    <a className="btn btn-primary">Schedule a Demo</a>
+                                <Link href="/shop">
+                                    <a className="btn btn-primary">Ürünler</a>
                                 </Link>
-                                <Link href="/index/#">
-                                    <a className="optional-btn">Get Started Free</a>
+                                <Link href="/contact">
+                                    <a className="optional-btn">Bize Ulaşın</a>
                                 </Link>
                             </div>
                         </div>

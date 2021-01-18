@@ -36,7 +36,7 @@ export default class MyApp extends App {
             <React.Fragment>
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                    <title>Bariton - React Next IT & Machine Learning Template</title>
+                    <title>Argia - Sualtı Aydınlatma Lambaları</title>
                 </Head>
 
                 <Component {...pageProps} />
