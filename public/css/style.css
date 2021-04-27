@@ -5578,7 +5578,7 @@ Main Banner Area CSS
   background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/images/startup-banner.jpg);
+  background-image: url(/images/Argia-Banner.jpeg);
   padding-top: 160px;
   padding-bottom: 160px;
 }
@@ -5819,7 +5819,6 @@ Solutions Area CSS
 .solutions-area {
   padding-bottom: 80px;
   background-color: #ffefe9;
-  background-image: url(/images/solutions-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
